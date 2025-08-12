@@ -10,4 +10,4 @@ COPY . .
 
 RUN uv pip install --system --prerelease=allow -r requirements.txt
 
-CMD ["bash"]
+CMD ["python", "-u", "main.py", "-i"]
