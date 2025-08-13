@@ -2,7 +2,7 @@
 [llm]
 model = "mixtral-8x7b-32768" # A Groq-supported model
 base_url = "https://api.groq.com/openai/v1"
-api_key = "gsk-your-correct-key" # Replace with your actual Groq API key (e.g., gsk_xyz789...)
+api_key = "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"
 max_tokens = 4096
 temperature = 0.0 # Controls randomness
 
