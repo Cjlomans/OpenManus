@@ -1,10 +1,10 @@
 # Global LLM configuration
- [llm]
- model = "dummy-model"
- base_url = "http://dummy.url"
- api_key = "dummy-key"
- max_tokens = 100
- temperature = 0.0
+[llm]
+model = "gpt-4o-mini"
+base_url = "https://api.openai.com/v1"
+api_key = "sk-REPLACE_ME"
+max_tokens = 4096
+temperature = 0.0
 
 # [llm] # Amazon Bedrock
 # api_type = "aws" # Required
